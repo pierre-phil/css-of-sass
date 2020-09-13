@@ -1,0 +1,4 @@
+//Convertir Px en rem 
+@function calculate-rem($valuePx)
+{     @return $valuePx / 16px * 1rem; }
+ // à utiliser pour @media queries @function calculate-em($valuePx){     @return $valuePx / 16px * 1em; }

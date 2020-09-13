@@ -1,0 +1,38 @@
+.obstacles {
+    background: $orange;
+  }
+  
+  ul {
+    text-align: center;
+@include responsive-grid(1.5rem, 15rem);
+  }
+  
+ li {
+    padding: 1rem;
+    background: var(--green);
+    border-radius: 1.5rem;
+    transition: 0.4s;
+  }
+  
+  .obstacles li:hover {
+    background: var(--yellow);
+    color: var(--orange);
+  }
+  .obstacles-title {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .obstacles-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .obstacles-small-grid {
+    margin: 2rem 0;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
+  }
+  .obstacles-small-grid img {
+    border: 2px dashed;
+  }

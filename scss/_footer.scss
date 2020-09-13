@@ -1,0 +1,19 @@
+footer {
+    background: $yellow;
+    color: $text-dark-color;
+    position: relative;
+    h2 {
+        font-size: 3rem;
+      }
+      img {
+        position: absolute;
+        transform: translate3d(0, -60%, 0);
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      .wrap {
+        display: grid;
+      }
+  }
